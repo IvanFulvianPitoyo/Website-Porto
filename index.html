@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ivan Fulvian Pitoyo — Portfolio</title>
+<meta name="description" content="Biomedical Engineering portfolio of Ivan Fulvian Pitoyo — AI, embedded systems, and medical device engineering.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="siteNav">
+  <div class="nav-inner">
+    <button class="nav-home" id="navHome" data-scroll="home" type="button">Home</button>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <!-- Skills / Projects links injected by script.js from content.json -->
+      <button class="nav-contact" id="navContact" type="button">Contact Me</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HOME / HERO -->
+  <section class="section hero" id="home">
+    <div class="hero-copy">
+      <p class="hero-kicker" data-reveal="up"></p>
+      <h1 class="hero-title" id="heroTitle" data-reveal="title"></h1>
+      <div class="hero-meta" data-reveal="up" data-delay="1">
+        <span class="hero-name" id="heroName"></span>
+        <div class="hero-contact">
+          <a id="heroInstagram" href="#" target="_blank" rel="noopener"></a>
+          <a id="heroPhone" href="#"></a>
+          <a id="heroEmail" href="#"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRODUCTION -->
+  <section class="section split" id="introduction">
+    <div class="split-copy" data-reveal="left">
+      <p class="eyebrow" id="introEyebrow"></p>
+      <h2 id="introTitle"></h2>
+      <div class="prose" id="introParagraphs"></div>
+    </div>
+    <div class="split-media" data-reveal="right">
+      <img id="introImage" class="media-portrait" src="" alt="">
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section-band alt" id="education">
+    <div class="split">
+      <div class="split-copy" data-reveal="left">
+        <p class="eyebrow" id="eduEyebrow"></p>
+        <h2 id="eduTitle"></h2>
+        <p id="eduParagraph"></p>
+      </div>
+      <div class="split-media" data-reveal="right">
+        <img id="eduImage" class="media-landscape" src="" alt="">
+        <div class="media-caption" id="eduCaption"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section split" id="skills">
+    <div class="split-copy" data-reveal="left">
+      <p class="eyebrow" id="skillsEyebrow"></p>
+      <h2 id="skillsTitle"></h2>
+      <p id="skillsIntro"></p>
+    </div>
+    <div class="split-media" data-reveal="right">
+      <img id="skillsImage" class="media-focus-low" src="" alt="">
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </section>
+
+  <!-- WORK EXPERIENCE -->
+  <section class="section alt" id="experience">
+    <div class="exp-head">
+      <p class="eyebrow" id="expEyebrow"></p>
+      <h2 id="expTitle"></h2>
+      <p id="expIntro"></p>
+    </div>
+    <div class="exp-images" id="expImages"></div>
+    <div class="exp-grid" id="expGrid"></div>
+  </section>
+
+  <!-- PROJECTS OVERVIEW -->
+  <section class="section" id="projects">
+    <div class="proj-head">
+      <p class="eyebrow" id="projEyebrow"></p>
+      <h2 id="projTitle"></h2>
+      <p id="projIntro"></p>
+    </div>
+    <div class="proj-cards" id="projCards"></div>
+  </section>
+
+  <!-- PROJECT DETAILS (injected: one .project-detail block per project) -->
+  <div id="projectDetails"></div>
+
+  <!-- ACHIEVEMENT -->
+  <section class="section-band alt" id="achievement">
+    <div class="split">
+      <div class="split-copy" data-reveal="left">
+        <p class="eyebrow" id="achEyebrow"></p>
+        <h2 id="achTitle"></h2>
+        <p class="subtitle" id="achSubtitle"></p>
+        <p id="achText"></p>
+      </div>
+      <div class="split-media" data-reveal="right">
+        <img id="achImage" src="" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- COURSES & TRAINING -->
+  <section class="section" id="courses">
+    <div class="courses-head">
+      <p class="eyebrow" id="coursesEyebrow"></p>
+      <h2 id="coursesTitle"></h2>
+    </div>
+    <div class="courses-list" id="coursesList"></div>
+  </section>
+
+  <!-- THANK YOU -->
+  <section class="section thankyou" id="thankyou">
+    <h2 id="closingTitle" data-reveal="up"></h2>
+    <p id="closingText" data-reveal="up" data-delay="1"></p>
+    <button class="btn-accent" id="closingCta" data-reveal="up" data-delay="2" type="button"></button>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <button class="footer-top" id="footerTop" type="button">Back to top ↑</button>
+  <p id="footerNote"></p>
+</footer>
+
+<button class="fab-top" id="fabTop" type="button" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>

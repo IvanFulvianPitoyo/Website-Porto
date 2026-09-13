@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "name": "Ivan Fulvian Pitoyo",
+    "title": "Ivan Fulvian Pitoyo — Portfolio",
+    "role": "Biomedical Engineering Graduate",
+    "instagram": { "label": "@ivan_fulvian_", "url": "https://instagram.com/ivan_fulvian_" },
+    "phone": { "label": "+62 813-8009-3355", "url": "tel:+6281380093355" },
+    "email": "ivanpitoyolmao@gmail.com"
+  },
+
+  "nav": [
+    { "label": "Skills", "target": "skills" },
+    { "label": "Projects", "target": "projects" }
+  ],
+
+  "hero": {
+    "kicker": "Biomedical Engineering \u00b7 AI \u00b7 Embedded Systems",
+    "title": "Portfolio",
+    "image": "assets/hero.jpg"
+  },
+
+  "introduction": {
+    "id": "introduction",
+    "eyebrow": "Introduction",
+    "title": "Introduction",
+    "image": "assets/intro.jpg",
+    "imageAlt": "Portrait of Ivan Fulvian Pitoyo",
+    "paragraphs": [
+      "I\u2019m Ivan Fulvian Pitoyo, a Biomedical Engineering graduate passionate about building technology that connects engineering, artificial intelligence, and healthcare. My interests lie in Computer Vision, Biomedical Instrumentation, Embedded Systems, and Medical Device Engineering.",
+      "During my undergraduate studies, I developed projects ranging from AI-based malaria parasite detection using YOLOv8m to an ESP32-based Smart Glove for speech-impaired users. These experiences allowed me to work across software, hardware, data analysis, prototyping, and system testing.",
+      "Alongside my technical work, I have also developed my leadership and teamwork skills through organizational roles, laboratory supervision, and project coordination. I am eager to continue developing my skills and contribute to the medical device and healthcare technology industry through engineering and innovation."
+    ]
+  },
+
+  "education": {
+    "id": "education",
+    "eyebrow": "Background",
+    "title": "My Education",
+    "image": "assets/education.jpg",
+    "imageAlt": "Aerial view of Institut Teknologi Sumatera campus",
+    "paragraph": "I completed my Bachelor\u2019s degree in Biomedical Engineering at Institut Teknologi Sumatera (ITERA). During my undergraduate studies, I explored the intersection of engineering, technology, and healthcare through laboratory work, technical projects, and research. My academic interests developed around Artificial Intelligence, Computer Vision, Biomedical Instrumentation, Medical Imaging, Biosensors, and Embedded Systems, leading me to work on projects such as an ESP32-based Smart Glove and a YOLOv8m-based malaria parasite detection system.",
+    "card": {
+      "school": "Institut Teknologi Sumatera (ITERA)",
+      "years": "2022 \u2013 2026",
+      "detail": "Focused on the application of engineering and technology in healthcare, with academic and project experience in Computer Vision, Biomedical Instrumentation, Embedded Systems, Biosensors, and Medical Image Processing."
+    }
+  },
+
+  "skills": {
+    "id": "skills",
+    "eyebrow": "Capabilities",
+    "title": "My Skills",
+    "image": "assets/skills.jpg",
+    "imageAlt": "Ivan working with lab instrumentation",
+    "intro": "Throughout my academic and organizational journey, I have developed a combination of technical, analytical, creative, and interpersonal skills. My experiences in biomedical engineering projects, research, laboratory activities, and student organizations have taught me how to work independently, collaborate with others, lead teams, and approach technical challenges systematically.",
+    "categories": [
+      {
+        "title": "Leadership & Teamwork",
+        "text": "Experienced in leading teams, coordinating projects, and collaborating across academic and organizational activities."
+      },
+      {
+        "title": "Technical & Engineering",
+        "text": "Experienced in biomedical instrumentation, embedded systems, sensor integration, medical image processing, and AI-based applications \u2014 including medical image analysis, deep learning, dataset optimization, and laboratory-based experimentation. I enjoy developing practical solutions by combining hardware, software, and biomedical engineering concepts."
+      },
+      {
+        "title": "Creative",
+        "text": "Combining technical knowledge with creative communication through graphic design, video editing, public relations, and content development. I have experience creating and coordinating visual content for academic and organizational communication."
+      }
+    ]
+  },
+
+  "experience": {
+    "id": "experience",
+    "eyebrow": "Track record",
+    "title": "My Work Experience",
+    "images": ["assets/work-1.jpg", "assets/work-2.jpg"],
+    "intro": "My experience spans the biomedical engineering, healthcare, and academic environments, with a focus on technical projects, laboratory activities, data management, and team leadership. These experiences have strengthened my technical, analytical, and collaborative skills.",
+    "roles": [
+      {
+        "title": "Project & Research Leadership",
+        "text": "Led the development of BIONE 3.0, LINK-US, and WEBMO while coordinating research and technology activities within the Biomedical Engineering student association."
+      },
+      {
+        "title": "Biomedical Engineering Practicum Assistant",
+        "text": "Guided students through biomedical engineering laboratory activities, including embedded electronics, ESP32 applications, sensor interfacing, material characterization, and biosensor experiments."
+      },
+      {
+        "title": "Medical Industry Experience",
+        "text": "Supported administrative activities at PT Aescomed Healthcare Indonesia, including medical supplies data management and the organization and storage of medical sutures."
+      }
+    ]
+  },
+
+  "projects": {
+    "id": "projects",
+    "eyebrow": "Selected work",
+    "title": "My Projects",
+    "intro": "My projects combine biomedical engineering, artificial intelligence, embedded systems, and healthcare technology, including AI-based malaria parasite detection, wearable biomedical devices, QR-based attendance systems, web-based organizational systems, and biomedical student exhibitions. Through these projects, I have gained hands-on experience in system development, medical image processing, sensor integration, embedded programming, data analysis, and project leadership.",
+    "list": [
+      {
+        "id": "project-glove",
+        "tag": "First Project",
+        "title": "Smart Glove for Speech-Impaired Users",
+        "summary": "A wearable ESP32-based glove that translates hand gestures into real-time speech and text output.",
+        "image": "assets/project-glove-team.jpg",
+        "imageAlt": "Team presenting the Smart Glove at the BIONE exhibition",
+        "stats": [
+          { "value": "5", "label": "gestures recognized" },
+          { "value": "92%", "label": "average accuracy" },
+          { "value": "6h 42m", "label": "continuous runtime" }
+        ],
+        "paragraphs": [
+          "This project developed a wearable Smart Glove for speech-impaired users to translate hand gestures into real-time outputs. The system combines an ESP32, flex sensors, an MPU-6050 IMU, Bluetooth communication, embedded programming, and an Android interface."
+        ],
+        "detailNote": "The resulting prototype successfully recognized 5 hand gestures with 92% average accuracy and operated continuously for 6 hours and 42 minutes.",
+        "images": ["assets/glove-render.jpg", "assets/project-glove-team.jpg"]
+      },
+      {
+        "id": "project-malaria",
+        "tag": "Second Project",
+        "title": "Undergraduate Thesis: YOLOv8m-Based Malaria Parasite Detection",
+        "summary": "An AI system for detecting malaria parasites in microscopic blood-smear images in real time.",
+        "image": "assets/project-malaria-lab.jpg",
+        "imageAlt": "Laboratory setup used for the malaria detection thesis",
+        "stats": [
+          { "value": "YOLOv8m", "label": "fine-tuned model" },
+          { "value": "Optuna", "label": "hyperparameter tuning" },
+          { "value": "Python + OpenCV", "label": "real-time GUI" }
+        ],
+        "paragraphs": [
+          "This project focused on developing an AI-based system for detecting malaria parasites in microscopic blood-smear images using a fine-tuned YOLOv8m model. The study involved image preprocessing, data augmentation, class-imbalance handling, and hyperparameter optimization using Optuna."
+        ],
+        "detailNote": "The final model was integrated into a Python and OpenCV-based GUI for real-time detection using a microscope camera.",
+        "images": ["assets/malaria-smear.jpg", "assets/project-malaria-lab.jpg"]
+      }
+    ]
+  },
+
+  "achievement": {
+    "id": "achievement",
+    "eyebrow": "Recognition",
+    "title": "My Achievement",
+    "subtitle": "BIEPC Short Essay \u2014 2nd Honorable Mention",
+    "image": "assets/achievement-cert.jpg",
+    "imageAlt": "BIEPC Short Essay award certificate",
+    "text": "Received 2nd Honorable Mention in the BIEPC Short Essay competition for \u201cSmart PostureGuard: Revolutionary Gyroscope-Integrated Neckband for Real-Time Neck Angle Detection and Cervicalgia,\u201d recognizing my participation and written contribution to the Biomedical International Essay and Poster event."
+  },
+
+  "courses": {
+    "id": "courses",
+    "eyebrow": "Continued learning",
+    "title": "Courses & Training",
+    "list": [
+      {
+        "title": "ITERA English Proficiency Test (InCiTe)",
+        "text": "Achieved a score of 580/677 in the ITERA English Proficiency Test (InCiTe), demonstrating my ability to understand and communicate in English in an academic and professional environment.",
+        "image": "assets/cert-incite.jpg",
+        "imageAlt": "ITERA English Proficiency Test score report"
+      },
+      {
+        "title": "LKMM-PraTD",
+        "text": "Participated in LKMM-PraTD, a student leadership and management training program at Institut Teknologi Sumatera.",
+        "image": "assets/cert-lkmm-pratd.jpg",
+        "imageAlt": "LKMM-PraTD participation certificate"
+      },
+      {
+        "title": "LKMM-TD & LKMM-TM",
+        "text": "Participated in LKMM-TD, a basic student leadership and management training program, and LKMM-TM, its intermediate follow-on \u2014 continuing my development in leadership, teamwork, and organizational responsibility, all at Institut Teknologi Sumatera.",
+        "image": "assets/cert-lkmm-tdtm.jpg",
+        "imageAlt": "LKMM-TD / LKMM-TM staff certificate"
+      }
+    ]
+  },
+
+  "closing": {
+    "id": "thankyou",
+    "title": "Thank You",
+    "text": "Thanks for reading through my work. I\u2019m always glad to talk biomedical engineering, AI, or the next project.",
+    "cta": "Say hello"
+  }
+}
